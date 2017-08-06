@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "download.file(\"https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder-FiveYearData.csv\",\n              \"data/gapminder-FiveYearData.csv\")\n\ngapminder <- read.csv(\"data/gapminder-FiveYearData.csv\")\n\nlibrary(ggplot2)\n\nggplot(gapminder, aes(x = gdpPercap, y = lifeExp)) +\n  geom_point(aes(color = continent)) +\n  scale_x_log10() +\n  geom_smooth(method=\"lm\")\n\n",
+    "created" : 1502037524699.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "170146481",
+    "id" : "78E50824",
+    "lastKnownWriteTime" : 1502042002,
+    "last_content_update" : 1502042002415,
+    "path" : "~/linux_share/carpentry/2017-08-05-stanford/gapminder-plots/gapminder-plots.R",
+    "project_path" : "gapminder-plots.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
