@@ -1,0 +1,4 @@
+*.pdf
+.git/
+.Rproj.user/
+data/
